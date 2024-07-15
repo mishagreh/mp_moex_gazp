@@ -1,6 +1,6 @@
-<h1> Market profile analysis terminal. </h1>>
+<h1> Market profile analysis terminal. </h1>
 
-<h2>Disclaimer:</h2>   
+<h2>>>> Disclaimer <<<</h2>   
 
 The project is for educational (learning Python) purposes only, not intended and shall not be  
 understood as financial advice and/or any kind of basis when making decisions on the financial markets.
@@ -9,7 +9,7 @@ understood as financial advice and/or any kind of basis when making decisions on
 ![img.png](app_window.png)
 
 
-<h2> Architecture</h2>>  
+<h2> Architecture</h2>  
 
 Moscow Exchange ([MOEX](https://www.moex.com/en)) public [API](https://iss.moex.com/iss/reference/)
 requests with the only GAZP (Gazprom) stock market security.
@@ -37,29 +37,31 @@ The same algorithm with minor differences is applied to the current day profile.
 
 API request duration hardcoded as 60 seconds. The number of days for 
 history is a configurable parameter (look it up in config.py, default is 5).
+  
+  
 
 <h2> Quick start </h2>
 
-Run **pre_start.py** first.  
+Run ***pre_start.py*** first.  
 It'll create directories for profile images 
 and database on the disk C:, create the database itself with appropriate tables and 
 set the history start date as the very first database record (which is
 10 days ago from the date you run the pre_start file).  
 
-Then run **mp.py** file.
+Then run ***mp.py*** file.
 
 
 <h2> Language </h2>
 
-Python 3.11
+*Python 3.11*
 
 <h2> Database </h2>
 
-SQLite3
+*SQLite3*
 
 <h2> GUI </h2>
 
-Tkinter
+*Tkinter*
 
 <h2> Operating system </h2>
 
