@@ -1,3 +1,5 @@
+Compare with the [child project](https://github.com/mishagreh/mp_moex_gazp_Bugayenko_style).
+
 <h1> Market profile analysis terminal. </h1>
 
 <h2>>>> Disclaimer <<<</h2>   
